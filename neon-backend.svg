@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">MATVEY RAKHMAN — BACKEND SYSTEMS</title>
+  <desc id="desc">Неоновый киберпанк-баннер: Java, Kotlin, Spring, PostgreSQL, Kafka и Redis</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080b1b"/><stop offset=".55" stop-color="#111029"/><stop offset="1" stop-color="#0c1025"/></linearGradient>
+    <linearGradient id="neon"><stop stop-color="#23f0e7"/><stop offset=".5" stop-color="#c659ff"/><stop offset="1" stop-color="#ff4d8d"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#6635a3" stroke-opacity=".19"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="frame"><rect width="1200" height="340" rx="20"/></clipPath>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.head{font-family:Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:5px}
+      .pulse{animation:pulse 2.7s ease-in-out infinite}.pulse2{animation:pulse 2.7s ease-in-out .8s infinite}.scan{animation:scan 5s linear infinite}.dash{animation:dash 7s linear infinite}.blink{animation:blink 3.2s steps(1) infinite}
+      @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}@keyframes scan{0%{transform:translateY(-25px)}100%{transform:translateY(365px)}}@keyframes dash{to{stroke-dashoffset:-90}}@keyframes blink{0%,85%,100%{opacity:1}86%,90%{opacity:.45}}
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#bg)"/><rect width="1200" height="340" fill="url(#grid)"/>
+    <path d="M0 276 225 180 352 219 540 105 687 160 875 70 1200 125" fill="none" stroke="#25f4e8" stroke-opacity=".19" stroke-width="2" stroke-dasharray="14 12" class="dash"/>
+    <path d="M0 310 265 255 450 288 680 177 890 215 1200 100" fill="none" stroke="#ff4d8d" stroke-opacity=".2" stroke-width="2"/>
+    <path d="M890 0V340M955 0V340M1015 0V340M1090 0V340" stroke="#ff4d8d" stroke-opacity=".09"/>
+    <rect x="35" y="33" width="1130" height="274" rx="13" fill="#090e22" fill-opacity=".5" stroke="url(#neon)" stroke-opacity=".7" stroke-width="2"/>
+    <path d="M35 75H1165M35 264H1165" stroke="#23f0e7" stroke-opacity=".29"/>
+    <rect x="45" y="0" width="2" height="40" fill="#37f7ed" opacity=".35" class="scan"/>
+    <text x="66" y="59" class="mono" fill="#26f5e8" font-size="16" letter-spacing="3">// SYSTEM ONLINE</text>
+    <text x="66" y="129" class="head blink" fill="#f7f0ff" font-size="48">MATVEY RAKHMAN</text>
+    <text x="69" y="169" class="mono" fill="#f770ab" font-size="22" letter-spacing="5">BACKEND SYSTEMS ENGINEER</text>
+    <rect x="68" y="196" width="620" height="1" fill="url(#neon)" filter="url(#glow)"/>
+    <text x="68" y="232" class="mono" fill="#d8d7f1" font-size="20">JAVA  /  KOTLIN  /  SPRING  /  POSTGRESQL</text>
+    <text x="68" y="288" class="mono" fill="#8b8daf" font-size="15" letter-spacing="3">DISTRIBUTED SYSTEMS  ·  EVENT-DRIVEN  ·  API</text>
+    <g transform="translate(845 132)">
+      <circle r="80" fill="none" stroke="#25f4e8" stroke-width="2" opacity=".65" class="pulse"/>
+      <circle r="59" fill="none" stroke="#ff4d8d" stroke-width="4" stroke-dasharray="15 13" class="dash pulse2"/>
+      <circle r="36" fill="#131731" stroke="#c659ff" stroke-width="2"/>
+      <path d="M-13 0 0-15 13 0 0 15Z" fill="none" stroke="#27f4e9" stroke-width="3" filter="url(#glow)"/>
+      <path d="M-105 0H-83M83 0H105M0-105V-83M0 83V105" stroke="#f86eaa" stroke-width="2"/>
+    </g>
+    <text x="1010" y="125" class="mono pulse" fill="#25f4e8" font-size="16">KAFKA</text>
+    <text x="1010" y="154" class="mono pulse2" fill="#f770ab" font-size="16">REDIS</text>
+    <text x="1010" y="183" class="mono" fill="#b4a4ec" font-size="16">gRPC</text>
+    <text x="1051" y="288" class="mono" fill="#7a759e" font-size="13">[ 01 / ∞ ]</text>
+  </g>
+</svg>
