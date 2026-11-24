@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/neon-backend.svg" width="100%" alt="Matvey Rakhman · backend systems · Java, Kotlin, Spring, PostgreSQL, Kafka, Redis" />
+  <img src="./neon-backend.svg" width="100%" alt="Matvey Rakhman · backend systems · Java, Kotlin, Spring, PostgreSQL, Kafka, Redis" />
 </div>
 
 <h1 align="center">Привет, я Матвей Рахман</h1>
