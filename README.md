@@ -24,6 +24,7 @@
 NestJS, Node.js, ClickHouse, Docker, Kubernetes, Maven, Gradle, GitLab CI, Prometheus, JUnit, Mockito, Testcontainers, React. Работаю с микросервисами, Event-Driven, Outbox, Saga, CQRS и DDD.
 
 </details>
+
 ### Связаться
 
 [Написать на почту](mailto:rakhmannis@gmail.com)
