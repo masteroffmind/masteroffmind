@@ -25,6 +25,10 @@ NestJS, Node.js, ClickHouse, Docker, Kubernetes, Maven, Gradle, GitLab CI, Prome
 
 </details>
 
+### Языки в моих репозиториях
+
+![Языки в репозиториях](https://github-readme-stats.vercel.app/api/top-langs/?username=masteroffmind&layout=compact&langs_count=8&theme=tokyonight)
+
 ### Связаться
 
 [Написать на почту](mailto:rakhmannis@gmail.com)
